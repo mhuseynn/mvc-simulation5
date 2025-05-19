@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\I Novbe\\source\\repos\\WebApplication9\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{6B91FAE3-D7BD-4FC8-ACC1-6DFA618B2B38}|WebApplication9\\WebApplication9.csproj|c:\\users\\i novbe\\source\\repos\\webapplication9\\webapplication9\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6B91FAE3-D7BD-4FC8-ACC1-6DFA618B2B38}|WebApplication9\\WebApplication9.csproj|solutionrelative:webapplication9\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{6B91FAE3-D7BD-4FC8-ACC1-6DFA618B2B38}|WebApplication9\\WebApplication9.csproj|c:\\users\\i novbe\\source\\repos\\webapplication9\\webapplication9\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6B91FAE3-D7BD-4FC8-ACC1-6DFA618B2B38}|WebApplication9\\WebApplication9.csproj|solutionrelative:webapplication9\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
@@ -23,6 +27,19 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "C:\\Users\\I Novbe\\source\\repos\\WebApplication9\\WebApplication9\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "WebApplication9\\Controllers\\AccountController.cs",
+              "ToolTip": "C:\\Users\\I Novbe\\source\\repos\\WebApplication9\\WebApplication9\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "WebApplication9\\Controllers\\AccountController.cs",
+              "ViewState": "AgIAAE8AAAAAAAAAAAAmwGcAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-19T08:24:01.237Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\I Novbe\\source\\repos\\WebApplication9\\WebApplication9\\Program.cs",
               "RelativeDocumentMoniker": "WebApplication9\\Program.cs",

@@ -65,13 +65,14 @@ public class AccountController : Controller
     }
 
     [HttpPost]
-    public async Task<IActionResult> Login(LoginVM loginVM,string returnUrl)
+    public async Task<IActionResult> Login(LoginVM loginVM, string returnUrl)
     {
-        if (!ModelState.IsValid) {
+        if (!ModelState.IsValid)
+        {
             ModelState.AddModelError("error", "model error");
         }
 
-        AppUser appUser= await _userManager.FindByEmailAsync(loginVM.Email);
+        AppUser appUser = await _userManager.FindByEmailAsync(loginVM.Email);
 
         if (appUser == null)
         {
@@ -79,11 +80,11 @@ public class AccountController : Controller
             return View(loginVM);
         }
 
-        var result=await _signInManager.PasswordSignInAsync(appUser,loginVM.Password,loginVM.RememberMe,false);
+        var result = await _signInManager.PasswordSignInAsync(appUser, loginVM.Password, loginVM.RememberMe, false);
 
         if (result.Succeeded)
         {
-            if(returnUrl!=null)
+            if (returnUrl != null)
             {
                 return RedirectPermanent(returnUrl);
             }
@@ -99,7 +100,8 @@ public class AccountController : Controller
         var role1 = new IdentityRole("Admin");
         var role2 = new IdentityRole("Member");
 
-       await _roleManager.CreateAsync(role1);
+        await _roleManager.CreateAsync(role1);
+        await _roleManager.CreateAsync(role2);
 
         return RedirectToAction("Register");
     }
