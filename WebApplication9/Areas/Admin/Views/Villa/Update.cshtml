@@ -1,0 +1,36 @@
+﻿@using WebApplication9.Areas.Admin.ViewModels
+@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+@addTagHelper *, AuthoringTagHelpers
+@model VillaVM
+
+<div class="container">
+    <form method="post" enctype="multipart/form-data">
+        <div class="form-group">
+
+            <label hidden asp-for="Id">Name</label>
+            <input hidden asp-for="Id" class="form-control">
+            <span hidden asp-validation-for="Id"></span>
+
+            <label asp-for="Name">Name</label>
+            <input asp-for="Name" class="form-control">
+            <span asp-validation-for="Name"></span>
+
+            <label asp-for="Description">Designation</label>
+            <input asp-for="Description" class="form-control">
+            <span asp-validation-for="Description"></span>
+
+            <label asp-for="Category">Designation</label>
+            <input asp-for="Category" class="form-control">
+            <span asp-validation-for="Category"></span>
+
+            <label asp-for="formFile">File</label>
+            <input asp-for="formFile" class="form-control">
+            <span asp-validation-for="formFile"></span>
+
+            <label hidden asp-for="ImgUrl">File</label>
+            <input hidden asp-for="ImgUrl" class="form-control">
+            <span hidden asp-validation-for="ImgUrl"></span>
+        </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+    </form>
+</div>
